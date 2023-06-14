@@ -24,7 +24,7 @@
         ref({
             id: 2,
             text: "GOAT_ENGINE",
-            icon: "Game\ Controller",
+            icon: "Game_Controller",
             window: {
                 title: "GOAT_ENGINE",
                 visible: false,
