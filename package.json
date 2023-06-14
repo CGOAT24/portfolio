@@ -15,5 +15,8 @@
     "vue": "^3.3.4",
     "vue-winbox": "^0.2.1",
     "xp.css": "^0.2.6"
+  },
+  "devDependencies": {
+    "semantic-release": "^21.0.5"
   }
 }

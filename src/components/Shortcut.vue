@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import "xp.css/dist/XP.css";
+    
     const props = defineProps({
 
         text: {
