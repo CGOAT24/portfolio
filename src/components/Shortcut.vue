@@ -16,7 +16,7 @@
     <div id="container">
         <img 
             id="icon" 
-            :src="`portfolio/icons/Windows_XP_Icons/${props.icon}.png`"
+            :src="`/portfolio/icons/Windows_XP_Icons/${props.icon}.png`"
         />
         <div id="text">{{ props.text }}</div>
     </div>
