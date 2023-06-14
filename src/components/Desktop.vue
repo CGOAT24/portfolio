@@ -5,7 +5,7 @@
     import Window from "./Window.vue";
     import type { Window as WindowType } from "../interfaces/Window";
     import type { Shortcut as ShortcutType } from "../interfaces/Shortcut";
-import { Ref, ref } from "vue";
+    import { Ref, ref } from "vue";
 
     const createWindow = useWinBox();
 
