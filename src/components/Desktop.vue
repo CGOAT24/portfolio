@@ -61,7 +61,7 @@
 <style scoped>
     #container {
         aspect-ratio: 4/3;
-        background-image: url("/xp-wallpaper.png");
+        background-image: url("portfolio/xp-wallpaper.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
