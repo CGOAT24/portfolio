@@ -1,101 +1,93 @@
 <script setup lang="ts">
-    import "xp.css/dist/XP.css";
-    import { useWinBox } from 'vue-winbox';
-    import Shortcut from './Shortcut.vue';
-    import type { Window as WindowType } from "../interfaces/Window";
-    import type { Shortcut as ShortcutType } from "../interfaces/Shortcut";
+import "xp.css/dist/XP.css";
+import { VueWinBox } from 'vue-winbox';
+import Shortcut from './Shortcut.vue';
+import type { Shortcut as ShortcutType } from "../interfaces/Shortcut";
+import { ref, type Ref } from "vue";
+import Window from "./Window.vue";
 
-    const createWindow = useWinBox();
-
-    const shortcutList: ShortcutType[] = [
-        {
-            text: "About",
-            icon: "Favorites",
-            window: {
-                title: "About",
-                body: "test",
-            }
-        },
-        {
-            text: "GOAT_ENGINE",
-            icon: "Game_Controller",
-            window: {
-                title: "GOAT_ENGINE",
-                body: "henlo",
-            }
-        }
-    ];
-
-    const parseText = (value: string) => {
-        if(value.length > 10) {
-            return value.slice(0, 10) + "...";
-        }
-        return value;
+const defaultWinOptions = (title: string) => {
+    return {
+        title: title,
+        class: ["no-shadow", "no-full", "no-min", "no-max"],
+        x: "center",
+        y: "center"
     }
+}
 
-    const handleClick = (x: ShortcutType) => {
-        generateWindow(x.window);
-    }
-
-    const generateWindow = (x: WindowType) => {
-        const winbox = createWindow({
-            title: x.title,
-            class: ["no-header", "no-shadow"],
-            x: "center",
-            y: "center"
-        }).setBackground("rgba(0, 0, 0, 0)");
-
-        const element = document.getElementById(winbox.id);
-        if(!element) { 
-            return; 
+const shortcutList: Ref<ShortcutType>[] = [
+    ref({
+        text: "About",
+        icon: "Favorites",
+        window: {
+            body: "test",
+            visible: false,
+            options: defaultWinOptions("About"),
+            ref: ref()
         }
-
-        const body = element.querySelector(".wb-body");
-        if(!body) { 
-            return; 
+    }),
+    ref({
+        text: "GOAT_ENGINE",
+        icon: "Game_Controller",
+        window: {
+            body: "henlo",
+            visible: false,
+            options: defaultWinOptions("GOAT_ENGINE"),
+            ref: ref()
         }
-        
-        body.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        body.innerHTML = createWindowBody(x, winbox);
-    }
+    })
+];
 
-    //TODO: Close button should close the window
-    const createWindowBody = (x: WindowType, winbox: Object) => {
-        return `
-        <div class="window" style="width: 300px; height: 300px; background-color: #fff;">
-            <div class="title-bar">
-                <div class="title-bar-text">${x.title}</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Close"/>
-                </div>
-            </div>
-            <div class="window-body">
-                <p>${x.body}</p>
-            </div>
-        </div>
-        `;
+const parseShortcutTitle = (value: string) => {
+    if (value.length > 10) {
+        return value.slice(0, 10) + "...";
     }
+    return value;
+}
+
+const showWindow = (x: Ref<ShortcutType>) => {
+    //x.value.window.ref.value.winbox.initialize();
+    x.value.window.visible = true;
+}
+
+const closeWindow = (x: Ref<ShortcutType>) => {
+    x.value.window.visible = false;
+}
+
+const destroyWindow = (x: Ref<ShortcutType>) => {
+    closeWindow(x);
+    x.value.window.ref.value.winbox.close();
+}
 </script>
 <template>
     <div id="desktop-container">
-        <div v-for="x in shortcutList">
-            <Shortcut :text="parseText(x.text)" :icon="x.icon" @Click="handleClick(x)"/>
+        <div v-for="x in shortcutList" v-bind:key="x.value.text">
+            <Shortcut :text="parseShortcutTitle(x.value.text)" :icon="x.value.icon" @Click="showWindow(x)" />
+            <VueWinBox v-if="x.value.window.visible" :ref="x.value.window.ref" :options="x.value.window.options"
+                @close="closeWindow(x)">
+                <Window style="overflow-y: hidden;" :title="x.value.window.options.title ?? ''" :body="x.value.window.body"
+                    @close="destroyWindow(x)" />
+            </VueWinBox>
         </div>
     </div>
 </template>
 
 <style scoped>
-    #desktop-container {
-        aspect-ratio: 4/3;
-        background-image: url("/portfolio/xp-wallpaper.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 5px;
-        color: white;
-        display: flex;
-        justify-content: flex-start;
-        align-content: flex-start;
-        gap: 30px;
-    }
+#desktop-container {
+    aspect-ratio: 4/3;
+    background-image: url("/portfolio/xp-wallpaper.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 5px;
+    border: 3px solid black;
+    max-height: 90vh;
+}
 </style>
