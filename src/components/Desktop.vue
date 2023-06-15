@@ -4,13 +4,11 @@
     import Shortcut from './Shortcut.vue';
     import type { Window as WindowType } from "../interfaces/Window";
     import type { Shortcut as ShortcutType } from "../interfaces/Shortcut";
-    import { Ref, ref } from "vue";
 
     const createWindow = useWinBox();
 
     const shortcutList: ShortcutType[] = [
         {
-            id: 1,
             text: "About",
             icon: "Favorites",
             window: {
@@ -19,7 +17,6 @@
             }
         },
         {
-            id: 2,
             text: "GOAT_ENGINE",
             icon: "Game_Controller",
             window: {
@@ -46,40 +43,30 @@
             class: ["no-header", "no-shadow"],
             x: "center",
             y: "center"
-        })
-        .setBackground("rgba(0, 0, 0, 0)");
+        }).setBackground("rgba(0, 0, 0, 0)");
+
         const element = document.getElementById(winbox.id);
         if(!element) { 
             return; 
-        } 
+        }
+
         const body = element.querySelector(".wb-body");
         if(!body) { 
             return; 
         }
-        body.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+        
+        body.style.backgroundColor = "rgba(0, 0, 0, 0)";
         body.innerHTML = createWindowBody(x, winbox);
     }
 
-    const createWindowHeader = (title: string) => {
-        return `
-        <div class="title-bar wb-header">
-            <div class="wb-drag">
-                <div class="wb-title title-bar-text">${title}</div>
-            </div>
-            <div class="title-bar-controls wb-control">
-                <button class="wb-close" aria-label="Close"/>
-            </div>
-        </div>
-        `;
-    }
-
+    //TODO: Close button should close the window
     const createWindowBody = (x: WindowType, winbox: Object) => {
         return `
         <div class="window" style="width: 300px; height: 300px; background-color: #fff;">
             <div class="title-bar">
                 <div class="title-bar-text">${x.title}</div>
                 <div class="title-bar-controls">
-                    <button aria-label="Close" onclick="(winbox) => { console.log('test'); winbox.close(); }"/>
+                    <button aria-label="Close"/>
                 </div>
             </div>
             <div class="window-body">
@@ -90,15 +77,15 @@
     }
 </script>
 <template>
-    <div id="container">
+    <div id="desktop-container">
         <div v-for="x in shortcutList">
-            <Shortcut :id="`shortcut-${x.id}`" :text="parseText(x.text)" :icon="x.icon" @Click="handleClick(x)"/>
+            <Shortcut :text="parseText(x.text)" :icon="x.icon" @Click="handleClick(x)"/>
         </div>
     </div>
 </template>
 
 <style scoped>
-    #container {
+    #desktop-container {
         aspect-ratio: 4/3;
         background-image: url("/portfolio/xp-wallpaper.png");
         background-position: center;

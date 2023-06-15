@@ -2,7 +2,6 @@
     import "xp.css/dist/XP.css";
     
     const props = defineProps({
-
         text: {
             type: String,
             required: true
@@ -24,7 +23,7 @@
 </template>
 <style scoped>
     #container {
-        background: rgba(1, 1, 1, 0);
+        background: rgba(0, 0, 0, 0);
         aspect-ratio: 1;
         max-width: 75px;
     }
