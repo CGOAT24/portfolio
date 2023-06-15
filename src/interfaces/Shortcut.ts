@@ -1,4 +1,4 @@
-import type {Window} from "./Window"
+import type { Window } from "./Window"
 
 export interface Shortcut {
     id: number,
