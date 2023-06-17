@@ -1,55 +1,57 @@
-# Astro Starter Kit: Basics
+<!-- README template based on: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
 
-```
-npm create astro@latest -- --template basics
-```
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Portfolio</h3>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+  <p align="center">
+    This is my portfolio used to showcase the different project I've worked on.
+  </p>
+</div>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Built With
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+* [![Vue][Vue.js]][Vue-url]
+* [![Astro][Astro.build]][Astro-url]
 
 
-## 🚀 Project Structure
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Inside of your Astro project, you'll see the following folders and files:
+## License
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Distributed under the GNU General Public License V3.0. See `LICENSE.txt` for more information.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+<!-- CONTACT -->
+## Contact
+* [![Email][Email-badge]][Email-link]
+* [![Discord][Discord-badge]][Discord-link]
 
-Any static assets, like images, can be placed in the `public/` directory.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-## 👀 Want to learn more?
+* [Icons](https://www.deviantart.com/marchmountain/art/Windows-XP-High-Resolution-Icon-Pack-916042853)
+* [vue-winbox](https://github.com/wobsoriano/vue-winbox)
+* [Windows XP theme](https://github.com/botoxparty/XP.css)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Astro-url]: https://astro.build/
+[Astro.build]: https://img.shields.io/badge/Astro-000000?style=for-the-badge&logo=astro&logoColor=%23FFF&color=%23FF5D01
+[Email-badge]: https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=%23FFF&color=000000
+[Email-link]: chadgauthier@duck.com
+[Discord-badge]: https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=%23FFF&color=%235865F2
+[Discord-link]: https://discordapp.com/users/155003628426362882
