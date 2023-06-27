@@ -1,22 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Desktop from "../components/Desktop.vue";
+import Startup from "../components/Startup.vue";
+
+const goToShowcase = () => {
+	return Astro.redirect('/showcase');
+}
 ---
 
 <Layout title="Portfolio | Chad Gauthier">
 	<main>
-		<Desktop client:only/>
+		<Startup client:only="vue"/>
 	</main>
 </Layout>
-
 <style scoped>
-	body {
-		overflow-y: hidden;
-	}
-	main {
-		display: flex;
-		justify-content: center;			
-		align-content: center;
-		height: 100vh;
-	}
+main {
+	background-color: black;
+	min-width: 100vw;
+	min-height: 100vh;
+}
 </style>
