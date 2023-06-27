@@ -3,9 +3,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
   "version": 1,
-  "serialNumber": "urn:uuid:7cd80d95-bf88-42da-88c3-74858d8b9ce2",
+  "serialNumber": "urn:uuid:13d298af-d10c-436f-9f89-c7227f0048dd",
   "metadata": {
-    "timestamp": "2023-06-17T17:31:42.931Z",
+    "timestamp": "2023-06-27T16:55:45.353Z",
     "tools": [
       {
         "vendor": "@cyclonedx",
@@ -2493,14 +2493,14 @@
     {
       "type": "library",
       "name": "astro",
-      "version": "2.6.4",
-      "bom-ref": "astro@2.6.4",
+      "version": "2.7.1",
+      "bom-ref": "astro@2.7.1",
       "author": "withastro",
       "description": "Astro is a modern site builder with web best practices, performance, and DX front-of-mind.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "60ce47f522c77e5c4207fdc7f12d818bed4b6f09ff300f5597f78e6669024f8f7582f06ccae2824eca146ace9fc2081e2a7f9f211d97a5d61dd85fae9d0bdede"
+          "content": "5bb29b8873c858cf6d9a3014cdaf2242d6a56cd9e945c6ed2a0119ef373ffaf3a9baf726487c646156abf9584b7f666ec012038e0685f4cf12710d81d68a1b00"
         }
       ],
       "licenses": [
@@ -2510,7 +2510,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/astro@2.6.4#packages/astro",
+      "purl": "pkg:npm/astro@2.7.1#packages/astro",
       "externalReferences": [
         {
           "url": "git+https://github.com/withastro/astro.git#packages/astro",
@@ -2528,7 +2528,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/astro/-/astro-2.6.4.tgz",
+          "url": "https://registry.npmjs.org/astro/-/astro-2.7.1.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -5823,14 +5823,14 @@
     {
       "type": "library",
       "name": "semver",
-      "version": "7.5.1",
-      "bom-ref": "semver@7.5.1",
+      "version": "7.5.3",
+      "bom-ref": "semver@7.5.3",
       "author": "GitHub Inc.",
       "description": "The semantic version parser used by npm.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "5afb2ce62be5f133116575c44acb41038b91e625e010dfd50b9fec39cb977552f371d933e0759eb48a117c6e606f95fe8a3fc6f6bc3d6281a7dd0a10f0e092a7"
+          "content": "401954b72564ff911e1db8bb5f47f0ea588365cec106611a4989f4d5f314d4e5186dfe863ec6d3b5df169a7a9b236d127b27281d27a2c9b904fead50faa95385"
         }
       ],
       "licenses": [
@@ -5840,7 +5840,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/semver@7.5.1",
+      "purl": "pkg:npm/semver@7.5.3",
       "externalReferences": [
         {
           "url": "git+https://github.com/npm/node-semver.git",
@@ -5858,7 +5858,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz",
+          "url": "https://registry.npmjs.org/semver/-/semver-7.5.3.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -5874,7 +5874,7 @@
           "type": "library",
           "name": "lru-cache",
           "version": "6.0.0",
-          "bom-ref": "semver@7.5.1|lru-cache@6.0.0",
+          "bom-ref": "semver@7.5.3|lru-cache@6.0.0",
           "author": "Isaac Z. Schlueter",
           "description": "A cache object that deletes the least-recently-used items.",
           "hashes": [
@@ -5924,7 +5924,7 @@
           "type": "library",
           "name": "yallist",
           "version": "4.0.0",
-          "bom-ref": "semver@7.5.1|yallist@4.0.0",
+          "bom-ref": "semver@7.5.3|yallist@4.0.0",
           "author": "Isaac Z. Schlueter",
           "description": "Yet Another Linked List",
           "hashes": [
@@ -7930,13 +7930,13 @@
       "type": "library",
       "name": "eslint-plugin",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/eslint-plugin@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/eslint-plugin@5.60.0",
       "description": "TypeScript plugin for ESLint",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "5f1b8e7d3902522392c81588bc7954ada2f0fc94ffe88a35dfae513ba66e23cf124ca31abc964f34c5349457144de4171211e2bfae026f163104da035529a086"
+          "content": "efc07e6a71cb1754c8f099ff703d10d344c161d3208dd3a7f7cd097c055af72c39b28a7c9f24df54e400bfa2d6cb090e18b7250c1b6fe73de8c4de30ee3c7236"
         }
       ],
       "licenses": [
@@ -7946,7 +7946,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/eslint-plugin@5.59.11#packages/eslint-plugin",
+      "purl": "pkg:npm/%40typescript-eslint/eslint-plugin@5.60.0#packages/eslint-plugin",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/eslint-plugin",
@@ -7964,7 +7964,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8039,13 +8039,13 @@
       "type": "library",
       "name": "parser",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/parser@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/parser@5.60.0",
       "description": "An ESLint custom parser which leverages TypeScript ESTree",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "b3d645dccf8dca6e8201912424978ed931471c3b0a00cdde70d90bb87e22e2cf3f4423e71792518a9d86caf89891e10073018c27192a1bd876740b270359d9a4"
+          "content": "8c138d701b0327d5284d6ac04644510a00f3eb05208261f946941596dec18a64b06939138f0ca91b328e4576d1e3fd87aa393d860c25a27dab55002358da64c9"
         }
       ],
       "licenses": [
@@ -8055,7 +8055,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/parser@5.59.11#packages/parser",
+      "purl": "pkg:npm/%40typescript-eslint/parser@5.60.0#packages/parser",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/parser",
@@ -8073,7 +8073,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8093,13 +8093,13 @@
       "type": "library",
       "name": "scope-manager",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/scope-manager@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/scope-manager@5.60.0",
       "description": "TypeScript scope analyser for ESLint",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "74714eb31a0b16dac87128f9874428053ffcf61c5038dc269f714e43418e41c2ce3979be308ad2f3310086ce2d5a5e4cadac42637649a5a5d041d14c7364eef9"
+          "content": "85a92ecdcc4fc178b68a17fd590bb505b463d5efcf77c659c154c6f647dbc40319b2d2b3f3ff4ea1ec48c2798bcd286db1d6a9e54fc2a10191096952b8f6d8c5"
         }
       ],
       "licenses": [
@@ -8109,7 +8109,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/scope-manager@5.59.11#packages/scope-manager",
+      "purl": "pkg:npm/%40typescript-eslint/scope-manager@5.60.0#packages/scope-manager",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/scope-manager",
@@ -8127,7 +8127,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8147,13 +8147,13 @@
       "type": "library",
       "name": "types",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/types@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/types@5.60.0",
       "description": "Types for the TypeScript-ESTree AST spec",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "7a9a0de91ead92f05849cf9c965af3f9cdac3855a46e2b0965690e13ecb7c47b6f61a384e9693a07c7b5d7831c449c054631af61d2702d7407e5cf68b0c13f00"
+          "content": "6ac70eba80a935905c70554d251482eab3eae04989d8d92ea0a9dde8b0cdc804267439f3880b716c219609b79f1b508dce60ef774e733b7e80981ec7f11cca3c"
         }
       ],
       "licenses": [
@@ -8163,7 +8163,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/types@5.59.11#packages/types",
+      "purl": "pkg:npm/%40typescript-eslint/types@5.60.0#packages/types",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/types",
@@ -8181,7 +8181,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8201,13 +8201,13 @@
       "type": "library",
       "name": "visitor-keys",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/visitor-keys@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/visitor-keys@5.60.0",
       "description": "Visitor keys used to help traverse the TypeScript-ESTree AST",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "286627893186dc0313b8a17d4010fb108aefb9f901e8eeae5f79273fbdf16ca2cca47f9044f7209c2c635974878cc46e3b114ba2f963a90810a51d1cec6be3a0"
+          "content": "c26f54cfbd526c2ca150a81c68f45ab817537a053263f65697c80bc03fe2ff26c9aac72badd5521489a9bd4cf5e812cf0a121e2812b915af6ce8a0d08ec8f25b"
         }
       ],
       "licenses": [
@@ -8217,7 +8217,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/visitor-keys@5.59.11#packages/visitor-keys",
+      "purl": "pkg:npm/%40typescript-eslint/visitor-keys@5.60.0#packages/visitor-keys",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/visitor-keys",
@@ -8235,7 +8235,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8309,13 +8309,13 @@
       "type": "library",
       "name": "type-utils",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/type-utils@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/type-utils@5.60.0",
       "description": "Type utilities for working with TypeScript + ESLint together",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "2d9a9563c84c895445d9aeffb309a44ad3184a85cc165ccbeac5d5e94ff680be5cc272d64202c41bcb6358fa5a138acc21d67a54a5b071f7cf968d633df938de"
+          "content": "5fb36c45075d3913184451fb156a3ab00f58ff36c9f2cd71d51200b67963e98a6b6d3a138909cceafc5c32eee262176e9e6a02d2b51695c6b5dc3e4354790ada"
         }
       ],
       "licenses": [
@@ -8325,7 +8325,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/type-utils@5.59.11#packages/type-utils",
+      "purl": "pkg:npm/%40typescript-eslint/type-utils@5.60.0#packages/type-utils",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/type-utils",
@@ -8343,7 +8343,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8363,13 +8363,13 @@
       "type": "library",
       "name": "typescript-estree",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/typescript-estree@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/typescript-estree@5.60.0",
       "description": "A parser that converts TypeScript source code into an ESTree compatible form",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "62ea4ea68b798493b499aba92578b18ba97911376b213c5ea3978139eb95ed148a818754dc6e5cc4ee3dffd5919c9abd10cac1ec0b9348b1ff6ea3ac5e2ef03c"
+          "content": "478ded840bb06ab0bdf529efac19a1dbab5cec5eac3dad81ddebe45e9ffcabde789182fa468e7a030012616b44122fb88f4f466e23401ea63034d66e36501119"
         }
       ],
       "licenses": [
@@ -8379,7 +8379,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/typescript-estree@5.59.11#packages/typescript-estree",
+      "purl": "pkg:npm/%40typescript-eslint/typescript-estree@5.60.0#packages/typescript-estree",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/typescript-estree",
@@ -8397,7 +8397,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8417,13 +8417,13 @@
       "type": "library",
       "name": "utils",
       "group": "@typescript-eslint",
-      "version": "5.59.11",
-      "bom-ref": "@typescript-eslint/utils@5.59.11",
+      "version": "5.60.0",
+      "bom-ref": "@typescript-eslint/utils@5.60.0",
       "description": "Utilities for working with TypeScript + ESLint together",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "76276edab1d238c51d25384b938699d4eafc21c3b71f30b0fd9bc48d34c87e322b71d77972f488c300f2d803a513b86d48da7b408675d1f2ccc910af79eb0c2e"
+          "content": "6dae75b8ca83b5f2d0e7ec47b7094ef38be4763aea3733a7aab9f06cc1cc458f13a9e99ef02d90f0573b2da8df191f9edffe0ba188965d433a0692086c727885"
         }
       ],
       "licenses": [
@@ -8433,7 +8433,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40typescript-eslint/utils@5.59.11#packages/utils",
+      "purl": "pkg:npm/%40typescript-eslint/utils@5.60.0#packages/utils",
       "externalReferences": [
         {
           "url": "git+https://github.com/typescript-eslint/typescript-eslint.git#packages/utils",
@@ -8451,7 +8451,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-5.59.11.tgz",
+          "url": "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-5.60.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8470,14 +8470,14 @@
     {
       "type": "library",
       "name": "eslint",
-      "version": "8.42.0",
-      "bom-ref": "eslint@8.42.0",
+      "version": "8.43.0",
+      "bom-ref": "eslint@8.43.0",
       "author": "Nicholas C. Zakas",
       "description": "An AST-based pattern checker for JavaScript.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "ba583d32ce84d563dfebb3c7684638ffa136b449f9fdfec55c6cebdedf5c04cba03a67f520d62fb94c3087569740de0c7c9e9ae4ada23703f7c38002a25bc8f4"
+          "content": "69a0a97f626aa8a7ac3051a09913deb2c9952a37065ea7650182cb0b74c733cb799c1459450facb7958cfe1a095e4762a045cb2db5e07255293344d7a391d7e5"
         }
       ],
       "licenses": [
@@ -8487,7 +8487,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/eslint@8.42.0",
+      "purl": "pkg:npm/eslint@8.43.0",
       "externalReferences": [
         {
           "url": "git+https://github.com/eslint/eslint.git",
@@ -8505,7 +8505,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/eslint/-/eslint-8.42.0.tgz",
+          "url": "https://registry.npmjs.org/eslint/-/eslint-8.43.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -8525,7 +8525,7 @@
           "type": "library",
           "name": "chalk",
           "version": "4.1.2",
-          "bom-ref": "eslint@8.42.0|chalk@4.1.2",
+          "bom-ref": "eslint@8.43.0|chalk@4.1.2",
           "description": "Terminal string styling done right",
           "hashes": [
             {
@@ -8578,7 +8578,7 @@
           "type": "library",
           "name": "ansi-styles",
           "version": "4.3.0",
-          "bom-ref": "eslint@8.42.0|ansi-styles@4.3.0",
+          "bom-ref": "eslint@8.43.0|ansi-styles@4.3.0",
           "author": "Sindre Sorhus",
           "description": "ANSI escape codes for styling strings in the terminal",
           "hashes": [
@@ -8632,7 +8632,7 @@
           "type": "library",
           "name": "color-convert",
           "version": "2.0.1",
-          "bom-ref": "eslint@8.42.0|color-convert@2.0.1",
+          "bom-ref": "eslint@8.43.0|color-convert@2.0.1",
           "author": "Heather Arthur",
           "description": "Plain color conversion functions",
           "hashes": [
@@ -8686,7 +8686,7 @@
           "type": "library",
           "name": "color-name",
           "version": "1.1.4",
-          "bom-ref": "eslint@8.42.0|color-name@1.1.4",
+          "bom-ref": "eslint@8.43.0|color-name@1.1.4",
           "author": "DY",
           "description": "A list of color names and its values",
           "hashes": [
@@ -8740,7 +8740,7 @@
           "type": "library",
           "name": "supports-color",
           "version": "7.2.0",
-          "bom-ref": "eslint@8.42.0|supports-color@7.2.0",
+          "bom-ref": "eslint@8.43.0|supports-color@7.2.0",
           "author": "Sindre Sorhus",
           "description": "Detect whether a terminal supports color",
           "hashes": [
@@ -8794,7 +8794,7 @@
           "type": "library",
           "name": "has-flag",
           "version": "4.0.0",
-          "bom-ref": "eslint@8.42.0|has-flag@4.0.0",
+          "bom-ref": "eslint@8.43.0|has-flag@4.0.0",
           "author": "Sindre Sorhus",
           "description": "Check if argv has a specific flag",
           "hashes": [
@@ -8848,7 +8848,7 @@
           "type": "library",
           "name": "escape-string-regexp",
           "version": "4.0.0",
-          "bom-ref": "eslint@8.42.0|escape-string-regexp@4.0.0",
+          "bom-ref": "eslint@8.43.0|escape-string-regexp@4.0.0",
           "author": "Sindre Sorhus",
           "description": "Escape RegExp special characters",
           "hashes": [
@@ -8902,7 +8902,7 @@
           "type": "library",
           "name": "eslint-scope",
           "version": "7.2.0",
-          "bom-ref": "eslint@8.42.0|eslint-scope@7.2.0",
+          "bom-ref": "eslint@8.43.0|eslint-scope@7.2.0",
           "description": "ECMAScript scope analyzer for ESLint",
           "hashes": [
             {
@@ -8955,7 +8955,7 @@
           "type": "library",
           "name": "estraverse",
           "version": "5.3.0",
-          "bom-ref": "eslint@8.42.0|estraverse@5.3.0",
+          "bom-ref": "eslint@8.43.0|estraverse@5.3.0",
           "description": "ECMAScript JS AST traversal functions",
           "hashes": [
             {
@@ -9008,7 +9008,7 @@
           "type": "library",
           "name": "glob-parent",
           "version": "6.0.2",
-          "bom-ref": "eslint@8.42.0|glob-parent@6.0.2",
+          "bom-ref": "eslint@8.43.0|glob-parent@6.0.2",
           "author": "Gulp Team",
           "description": "Extract the non-magic parent path from a glob string.",
           "hashes": [
@@ -9062,7 +9062,7 @@
           "type": "library",
           "name": "globals",
           "version": "13.20.0",
-          "bom-ref": "eslint@8.42.0|globals@13.20.0",
+          "bom-ref": "eslint@8.43.0|globals@13.20.0",
           "author": "Sindre Sorhus",
           "description": "Global identifiers from different JavaScript environments",
           "hashes": [
@@ -9116,7 +9116,7 @@
           "type": "library",
           "name": "type-fest",
           "version": "0.20.2",
-          "bom-ref": "eslint@8.42.0|type-fest@0.20.2",
+          "bom-ref": "eslint@8.43.0|type-fest@0.20.2",
           "author": "Sindre Sorhus",
           "description": "A collection of essential TypeScript types",
           "hashes": [
@@ -9168,7 +9168,7 @@
           "type": "library",
           "name": "strip-ansi",
           "version": "6.0.1",
-          "bom-ref": "eslint@8.42.0|strip-ansi@6.0.1",
+          "bom-ref": "eslint@8.43.0|strip-ansi@6.0.1",
           "author": "Sindre Sorhus",
           "description": "Strip ANSI escape codes from a string",
           "hashes": [
@@ -9222,7 +9222,7 @@
           "type": "library",
           "name": "ansi-regex",
           "version": "5.0.1",
-          "bom-ref": "eslint@8.42.0|ansi-regex@5.0.1",
+          "bom-ref": "eslint@8.43.0|ansi-regex@5.0.1",
           "author": "Sindre Sorhus",
           "description": "Regular expression for matching ANSI escape codes",
           "hashes": [
@@ -10497,14 +10497,14 @@
       "type": "library",
       "name": "internal-helpers",
       "group": "@astrojs",
-      "version": "0.1.0",
-      "bom-ref": "@astrojs/internal-helpers@0.1.0",
+      "version": "0.1.1",
+      "bom-ref": "@astrojs/internal-helpers@0.1.1",
       "author": "withastro",
       "description": "Internal helpers used by core Astro packages.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "392c2fa05913a95a308b23fe728750790656a2afc73b0637db1d7b3710e0956a02c76b1dc97ce9943668555e3fde876648463afc0fb8f16325e6a92398fd425f"
+          "content": "f8bc926ef15b8efda73b69bf7bbf2cba579038612bbb80a7c7bdd5b196eb420076bbb03875db108373f64f4cc2d1ed748e0713f9cea736529e2e96ba9d185022"
         }
       ],
       "licenses": [
@@ -10514,7 +10514,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40astrojs/internal-helpers@0.1.0#packages/internal-helpers",
+      "purl": "pkg:npm/%40astrojs/internal-helpers@0.1.1#packages/internal-helpers",
       "externalReferences": [
         {
           "url": "git+https://github.com/withastro/astro.git#packages/internal-helpers",
@@ -10532,7 +10532,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@astrojs/internal-helpers/-/internal-helpers-0.1.0.tgz",
+          "url": "https://registry.npmjs.org/@astrojs/internal-helpers/-/internal-helpers-0.1.1.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -21788,13 +21788,13 @@
     {
       "type": "library",
       "name": "acorn",
-      "version": "8.8.2",
-      "bom-ref": "acorn@8.8.2",
+      "version": "8.9.0",
+      "bom-ref": "acorn@8.9.0",
       "description": "ECMAScript parser",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "c63218804f0706b92977fb09a8e18db297fcb871be34e1c63b0e9afd4ae3f2d68cd845df74d007da815c3de2057ecbf7fa4cff989ad2e55b8ca9b34b8c26b6bf"
+          "content": "8da54d00504734b5eca4ee78dd69cd34f64546d6af877b24024213a83d3fd9a78c90a65337edb9e0fca1c31158ae4def435c5f63edb06deb0932cfc90bcfcfc1"
         }
       ],
       "licenses": [
@@ -21804,7 +21804,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/acorn@8.8.2",
+      "purl": "pkg:npm/acorn@8.9.0",
       "externalReferences": [
         {
           "url": "git+https://github.com/acornjs/acorn.git",
@@ -21822,7 +21822,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/acorn/-/acorn-8.8.2.tgz",
+          "url": "https://registry.npmjs.org/acorn/-/acorn-8.9.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -23189,56 +23189,6 @@
     },
     {
       "type": "library",
-      "name": "fsevents",
-      "version": "2.3.2",
-      "bom-ref": "fsevents@2.3.2",
-      "description": "Native Access to MacOS FSEvents",
-      "scope": "optional",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "c62a8c411e3101e1d3b81f6e5a6f9f1517083a02813223813fe7978b24fb8ec8150aad5b915ca0b74d28012a3007b11db6938769a3e02adf35d8ff5a6fe0c328"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/fsevents@2.3.2",
-      "externalReferences": [
-        {
-          "url": "git+https://github.com/fsevents/fsevents.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/fsevents/fsevents",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        },
-        {
-          "url": "https://github.com/fsevents/fsevents/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz",
-          "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/fsevents"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "glob-parent",
       "version": "5.1.2",
       "bom-ref": "glob-parent@5.1.2",
@@ -23737,16 +23687,16 @@
     },
     {
       "type": "library",
-      "name": "darwin-arm64",
+      "name": "linux-x64",
       "group": "@esbuild",
       "version": "0.17.19",
-      "bom-ref": "@esbuild/darwin-arm64@0.17.19",
-      "description": "The macOS ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "bom-ref": "@esbuild/linux-x64@0.17.19",
+      "description": "The Linux 64-bit binary for esbuild, a JavaScript bundler.",
       "scope": "optional",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "f34c04a027c5fe114a33a584d45c811dcf527d46e5968016c7a1499055935a20a886df4c734011184338edeebb5bdac8d3d62853124bebc5877c3458100bce86"
+          "content": "ebc9e003d960d87eb3919732a76dadb15b77f2696159d7bc9777892d69322eba781f0314af7735b3f336b7bfa41c886f323825201ac5a67717d52ccc724a261b"
         }
       ],
       "licenses": [
@@ -23756,7 +23706,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40esbuild/darwin-arm64@0.17.19",
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.17.19",
       "externalReferences": [
         {
           "url": "git+https://github.com/evanw/esbuild.git",
@@ -23774,7 +23724,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.17.19.tgz",
+          "url": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.17.19.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -23782,7 +23732,7 @@
       "properties": [
         {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/@esbuild/darwin-arm64"
+          "value": "node_modules/@esbuild/linux-x64"
         }
       ]
     },
@@ -27590,56 +27540,6 @@
     },
     {
       "type": "library",
-      "name": "slash",
-      "version": "4.0.0",
-      "bom-ref": "slash@4.0.0",
-      "author": "Sindre Sorhus",
-      "description": "Convert Windows backslash paths to slash paths",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "ddd3ac0075d7524413a4e61ca00c4b228acc4e9e20210af9216de255bec0ee5148a74547867ca79bd8b3c7a4ecb1dac87152044809558ed9ced8af1b83e0a87b"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/slash@4.0.0",
-      "externalReferences": [
-        {
-          "url": "git+https://github.com/sindresorhus/slash.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/sindresorhus/slash#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        },
-        {
-          "url": "https://github.com/sindresorhus/slash/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz",
-          "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/slash"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "eastasianwidth",
       "version": "0.2.0",
       "bom-ref": "eastasianwidth@0.2.0",
@@ -27785,156 +27685,6 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/ansi-regex"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "supports-esm",
-      "version": "1.0.0",
-      "bom-ref": "supports-esm@1.0.0",
-      "author": "Michaël Zasso",
-      "description": "Detect at runtime if Node.js supports ECMAScript modules",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "f7a026f020ea51a0b4236f82fecc09d3212f33c6671a7e2e9e87abb3f2d2744e2e9a15fb9842f3ab22f3c771e764096eab93d722c18c2aa6bb364a9a78730f72"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/supports-esm@1.0.0",
-      "externalReferences": [
-        {
-          "url": "git+https://github.com/targos/supports-esm.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/targos/supports-esm#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        },
-        {
-          "url": "https://github.com/targos/supports-esm/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "https://registry.npmjs.org/supports-esm/-/supports-esm-1.0.0.tgz",
-          "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/supports-esm"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "has-package-exports",
-      "version": "1.3.0",
-      "bom-ref": "has-package-exports@1.3.0",
-      "author": "Jordan Harband",
-      "description": "Does the current node version have support for the \"exports\" field in package.json?",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "7bd39e5cf42798f858a09eb79570b8c167b7e13c441990d9dce417f5746aa76570b1f2e5ddb401cbb55e84b9dddf883779ff029989412c6a8430a5eecfc61acd"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/has-package-exports@1.3.0",
-      "externalReferences": [
-        {
-          "url": "git+https://github.com/inspect-js/has-package-exports.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/inspect-js/has-package-exports#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        },
-        {
-          "url": "https://github.com/inspect-js/has-package-exports/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "https://registry.npmjs.org/has-package-exports/-/has-package-exports-1.3.0.tgz",
-          "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/has-package-exports"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "has-package-exports-patterns",
-      "group": "@ljharb",
-      "version": "0.0.2",
-      "bom-ref": "@ljharb/has-package-exports-patterns@0.0.2",
-      "author": "Jordan Harband",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "e3f45611e5c33ba6e870f38d85e15eea05ffa1074ffdb129bf4a0be07aa33cfe4309e9c14add261e06a1a69638f4dd02a6c6aa7df7703eaf93957f4260eab60f"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/%40ljharb/has-package-exports-patterns@0.0.2",
-      "externalReferences": [
-        {
-          "url": "git+https://github.com/inspect-js/has-package-exports.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/inspect-js/has-package-exports#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        },
-        {
-          "url": "https://github.com/inspect-js/has-package-exports/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "https://registry.npmjs.org/@ljharb/has-package-exports-patterns/-/has-package-exports-patterns-0.0.2.tgz",
-          "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/@ljharb/has-package-exports-patterns"
         }
       ]
     },
@@ -28575,14 +28325,14 @@
     {
       "type": "library",
       "name": "eslint-plugin-vue",
-      "version": "9.14.1",
-      "bom-ref": "eslint-plugin-vue@9.14.1",
+      "version": "9.15.1",
+      "bom-ref": "eslint-plugin-vue@9.15.1",
       "author": "Toru Nagashima",
       "description": "Official ESLint plugin for Vue.js",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "2d06b30c1d6a90d10a7a32defdbe5af557c46ed6dccdc39aba2e65438430d2d6d105b418444cb1c4e57905080d0d3a863ecf69c6a884a5b322f72c2e21a17bbf"
+          "content": "08913fa193ac96f98047d85ff120a54dd43d24bc1e8214fa24205036b4f621e975b95c345b438b271cef3dde82c66001282bcbaedc839ea195dfb3bb290bfaf8"
         }
       ],
       "licenses": [
@@ -28592,7 +28342,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/eslint-plugin-vue@9.14.1",
+      "purl": "pkg:npm/eslint-plugin-vue@9.15.1",
       "externalReferences": [
         {
           "url": "git+https://github.com/vuejs/eslint-plugin-vue.git",
@@ -28610,7 +28360,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-9.14.1.tgz",
+          "url": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-9.15.1.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -29656,13 +29406,13 @@
       "type": "library",
       "name": "js",
       "group": "@eslint",
-      "version": "8.42.0",
-      "bom-ref": "@eslint/js@8.42.0",
+      "version": "8.43.0",
+      "bom-ref": "@eslint/js@8.43.0",
       "description": "ESLint JavaScript language implementation",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "e925a55e9594e40bc877c01cef38f39883aa30e6dafc9598f1767803babb1a7d5595f83f48514896bb475edf673e7e28a7d64f02497dd496a8f9042fdebfee93"
+          "content": "b365070a88977f132f99fceaa0dfafad0f386a151261d7bda8d3b531dc66a048721d6b1f9b03a9165c1857e78f24455cee01670131948b7efa5a8c17d4deed16"
         }
       ],
       "licenses": [
@@ -29672,7 +29422,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40eslint/js@8.42.0#packages/js",
+      "purl": "pkg:npm/%40eslint/js@8.43.0#packages/js",
       "externalReferences": [
         {
           "url": "git+https://github.com/eslint/eslint.git#packages/js",
@@ -29690,7 +29440,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/@eslint/js/-/js-8.42.0.tgz",
+          "url": "https://registry.npmjs.org/@eslint/js/-/js-8.43.0.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -32354,14 +32104,15 @@
     },
     {
       "type": "library",
-      "name": "vue-winbox",
-      "version": "0.2.1",
-      "bom-ref": "vue-winbox@0.2.1",
-      "author": "Robert Soriano",
+      "name": "tuicss",
+      "version": "2.1.1",
+      "bom-ref": "tuicss@2.1.1",
+      "author": "Vinícius Reif Biavatti",
+      "description": "TuiCss is a library for developing Web applications that uses text-based user interface applications (TUI) as a style",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "388c32a3a06b35924ce8be0bc546304b8ac75ec73f4fe3d3b0ddd134fb3906f834d180460e74ce91cecee023bcbb1293c317b21831d586d229b29ecf0ecefbff"
+          "content": "d49b254f0f6c6ca01dc6303cf59b8b95b2db8c594a444ffdbd99c11801ed647ab342e671ba7642567a008f1cc532897044338981c7d0d6cadf9ed27e64d74567"
         }
       ],
       "licenses": [
@@ -32371,7 +32122,56 @@
           }
         }
       ],
-      "purl": "pkg:npm/vue-winbox@0.2.1",
+      "purl": "pkg:npm/tuicss@2.1.1",
+      "externalReferences": [
+        {
+          "url": "git+https://github.com/vinibiavatti1/TuiCss.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/vinibiavatti1/TuiCss#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        },
+        {
+          "url": "https://github.com/vinibiavatti1/TuiCss/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "https://registry.npmjs.org/tuicss/-/tuicss-2.1.1.tgz",
+          "type": "distribution",
+          "comment": "as detected from npm-ls property \"resolved\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/tuicss"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vue-winbox",
+      "version": "0.2.3",
+      "bom-ref": "vue-winbox@0.2.3",
+      "author": "Robert Soriano",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "397309da00acddd290c667d3b711dbb734e34b66e5fa1ead901406f442ae437044c1aa5fe9bd1400f715c1f98ba1d38e1a96e6d6d29e25beed8a3122330a6681"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/vue-winbox@0.2.3",
       "externalReferences": [
         {
           "url": "git+https://github.com/wobsoriano/vue-winbox.git",
@@ -32389,7 +32189,7 @@
           "comment": "as detected from PackageJson property \"bugs.url\""
         },
         {
-          "url": "https://registry.npmjs.org/vue-winbox/-/vue-winbox-0.2.1.tgz",
+          "url": "https://registry.npmjs.org/vue-winbox/-/vue-winbox-0.2.3.tgz",
           "type": "distribution",
           "comment": "as detected from npm-ls property \"resolved\""
         }
@@ -32405,7 +32205,7 @@
           "type": "library",
           "name": "nanoid",
           "version": "4.0.2",
-          "bom-ref": "vue-winbox@0.2.1|nanoid@4.0.2",
+          "bom-ref": "vue-winbox@0.2.3|nanoid@4.0.2",
           "author": "Andrey Sitnik",
           "description": "A tiny (116 bytes), secure URL-friendly unique string ID generator",
           "hashes": [
@@ -32814,12 +32614,13 @@
       "dependsOn": [
         "@astrojs/vue@2.2.1",
         "@cyclonedx/cyclonedx-npm@1.12.1",
-        "@typescript-eslint/eslint-plugin@5.59.11",
-        "@typescript-eslint/parser@5.59.11",
-        "astro@2.6.4",
-        "eslint-plugin-vue@9.14.1",
-        "eslint@8.42.0",
-        "vue-winbox@0.2.1",
+        "@typescript-eslint/eslint-plugin@5.60.0",
+        "@typescript-eslint/parser@5.60.0",
+        "astro@2.7.1",
+        "eslint-plugin-vue@9.15.1",
+        "eslint@8.43.0",
+        "tuicss@2.1.1",
+        "vue-winbox@0.2.3",
         "vue@3.3.4",
         "xp.css@0.2.6"
       ]
@@ -32831,7 +32632,7 @@
         "@vitejs/plugin-vue@4.2.3",
         "@vue/babel-plugin-jsx@1.1.1",
         "@vue/compiler-sfc@3.3.4",
-        "astro@2.6.4",
+        "astro@2.7.1",
         "vue@3.3.4"
       ]
     },
@@ -33006,7 +32807,6 @@
       "ref": "vite@4.3.9",
       "dependsOn": [
         "esbuild@0.17.19",
-        "fsevents@2.3.2",
         "postcss@8.4.24",
         "rollup@3.25.1"
       ]
@@ -33155,10 +32955,10 @@
       "ref": "picocolors@1.0.0"
     },
     {
-      "ref": "astro@2.6.4",
+      "ref": "astro@2.7.1",
       "dependsOn": [
         "@astrojs/compiler@1.5.1",
-        "@astrojs/internal-helpers@0.1.0",
+        "@astrojs/internal-helpers@0.1.1",
         "@astrojs/language-server@1.0.8",
         "@astrojs/markdown-remark@2.2.1",
         "@astrojs/telemetry@2.1.1",
@@ -33171,7 +32971,7 @@
         "@babel/types@7.22.5",
         "@types/babel__core@7.20.1",
         "@types/yargs-parser@21.0.0",
-        "acorn@8.8.2",
+        "acorn@8.9.0",
         "boxen@6.2.1",
         "chokidar@3.5.3",
         "ci-info@3.8.0",
@@ -33199,13 +32999,11 @@
         "preferred-pm@3.0.3",
         "prompts@2.4.2",
         "rehype@12.0.1",
-        "semver@7.5.1",
+        "semver@7.5.3",
         "server-destroy@1.0.1",
         "shiki@0.14.2",
-        "slash@4.0.0",
         "string-width@5.1.2",
         "strip-ansi@7.1.0",
-        "supports-esm@1.0.0",
         "tsconfig-resolver@3.0.1",
         "typescript@5.1.3",
         "unist-util-visit@4.1.2",
@@ -33365,7 +33163,7 @@
         "nopt@5.0.0",
         "npmlog@5.0.1",
         "rimraf@3.0.2",
-        "semver@7.5.1",
+        "semver@7.5.3",
         "tar@6.1.15"
       ]
     },
@@ -33546,19 +33344,19 @@
       ]
     },
     {
-      "ref": "semver@7.5.1",
+      "ref": "semver@7.5.3",
       "dependsOn": [
-        "semver@7.5.1|lru-cache@6.0.0"
+        "semver@7.5.3|lru-cache@6.0.0"
       ]
     },
     {
-      "ref": "semver@7.5.1|lru-cache@6.0.0",
+      "ref": "semver@7.5.3|lru-cache@6.0.0",
       "dependsOn": [
-        "semver@7.5.1|yallist@4.0.0"
+        "semver@7.5.3|yallist@4.0.0"
       ]
     },
     {
-      "ref": "semver@7.5.1|yallist@4.0.0"
+      "ref": "semver@7.5.3|yallist@4.0.0"
     },
     {
       "ref": "tar@6.1.15",
@@ -33672,7 +33470,7 @@
       "dependsOn": [
         "hosted-git-info@6.1.1",
         "is-core-module@2.12.1",
-        "semver@7.5.1",
+        "semver@7.5.3",
         "validate-npm-package-license@3.0.4"
       ]
     },
@@ -33745,19 +33543,19 @@
       "ref": "esprima@4.0.1"
     },
     {
-      "ref": "@typescript-eslint/eslint-plugin@5.59.11",
+      "ref": "@typescript-eslint/eslint-plugin@5.60.0",
       "dependsOn": [
         "@eslint-community/regexpp@4.5.1",
-        "@typescript-eslint/parser@5.59.11",
-        "@typescript-eslint/scope-manager@5.59.11",
-        "@typescript-eslint/type-utils@5.59.11",
-        "@typescript-eslint/utils@5.59.11",
+        "@typescript-eslint/parser@5.60.0",
+        "@typescript-eslint/scope-manager@5.60.0",
+        "@typescript-eslint/type-utils@5.60.0",
+        "@typescript-eslint/utils@5.60.0",
         "debug@4.3.4",
-        "eslint@8.42.0",
+        "eslint@8.43.0",
         "grapheme-splitter@1.0.4",
         "ignore@5.2.4",
         "natural-compare-lite@1.4.0",
-        "semver@7.5.1",
+        "semver@7.5.3",
         "tsutils@3.21.0"
       ]
     },
@@ -33765,29 +33563,29 @@
       "ref": "@eslint-community/regexpp@4.5.1"
     },
     {
-      "ref": "@typescript-eslint/parser@5.59.11",
+      "ref": "@typescript-eslint/parser@5.60.0",
       "dependsOn": [
-        "@typescript-eslint/scope-manager@5.59.11",
-        "@typescript-eslint/types@5.59.11",
-        "@typescript-eslint/typescript-estree@5.59.11",
+        "@typescript-eslint/scope-manager@5.60.0",
+        "@typescript-eslint/types@5.60.0",
+        "@typescript-eslint/typescript-estree@5.60.0",
         "debug@4.3.4",
-        "eslint@8.42.0"
+        "eslint@8.43.0"
       ]
     },
     {
-      "ref": "@typescript-eslint/scope-manager@5.59.11",
+      "ref": "@typescript-eslint/scope-manager@5.60.0",
       "dependsOn": [
-        "@typescript-eslint/types@5.59.11",
-        "@typescript-eslint/visitor-keys@5.59.11"
+        "@typescript-eslint/types@5.60.0",
+        "@typescript-eslint/visitor-keys@5.60.0"
       ]
     },
     {
-      "ref": "@typescript-eslint/types@5.59.11"
+      "ref": "@typescript-eslint/types@5.60.0"
     },
     {
-      "ref": "@typescript-eslint/visitor-keys@5.59.11",
+      "ref": "@typescript-eslint/visitor-keys@5.60.0",
       "dependsOn": [
-        "@typescript-eslint/types@5.59.11",
+        "@typescript-eslint/types@5.60.0",
         "eslint-visitor-keys@3.4.1"
       ]
     },
@@ -33795,58 +33593,58 @@
       "ref": "eslint-visitor-keys@3.4.1"
     },
     {
-      "ref": "@typescript-eslint/type-utils@5.59.11",
+      "ref": "@typescript-eslint/type-utils@5.60.0",
       "dependsOn": [
-        "@typescript-eslint/typescript-estree@5.59.11",
-        "@typescript-eslint/utils@5.59.11",
+        "@typescript-eslint/typescript-estree@5.60.0",
+        "@typescript-eslint/utils@5.60.0",
         "debug@4.3.4",
-        "eslint@8.42.0",
+        "eslint@8.43.0",
         "tsutils@3.21.0"
       ]
     },
     {
-      "ref": "@typescript-eslint/typescript-estree@5.59.11",
+      "ref": "@typescript-eslint/typescript-estree@5.60.0",
       "dependsOn": [
-        "@typescript-eslint/types@5.59.11",
-        "@typescript-eslint/visitor-keys@5.59.11",
+        "@typescript-eslint/types@5.60.0",
+        "@typescript-eslint/visitor-keys@5.60.0",
         "debug@4.3.4",
         "globby@11.1.0",
         "is-glob@4.0.3",
-        "semver@7.5.1",
+        "semver@7.5.3",
         "tsutils@3.21.0"
       ]
     },
     {
-      "ref": "@typescript-eslint/utils@5.59.11",
+      "ref": "@typescript-eslint/utils@5.60.0",
       "dependsOn": [
         "@eslint-community/eslint-utils@4.4.0",
         "@types/json-schema@7.0.12",
         "@types/semver@7.5.0",
-        "@typescript-eslint/scope-manager@5.59.11",
-        "@typescript-eslint/types@5.59.11",
-        "@typescript-eslint/typescript-estree@5.59.11",
+        "@typescript-eslint/scope-manager@5.60.0",
+        "@typescript-eslint/types@5.60.0",
+        "@typescript-eslint/typescript-estree@5.60.0",
         "eslint-scope@5.1.1",
-        "eslint@8.42.0",
-        "semver@7.5.1"
+        "eslint@8.43.0",
+        "semver@7.5.3"
       ]
     },
     {
-      "ref": "eslint@8.42.0",
+      "ref": "eslint@8.43.0",
       "dependsOn": [
         "@eslint-community/eslint-utils@4.4.0",
         "@eslint-community/regexpp@4.5.1",
         "@eslint/eslintrc@2.0.3",
-        "@eslint/js@8.42.0",
+        "@eslint/js@8.43.0",
         "@humanwhocodes/config-array@0.11.10",
         "@humanwhocodes/module-importer@1.0.1",
         "@nodelib/fs.walk@1.2.8",
         "ajv@6.12.6",
-        "eslint@8.42.0|chalk@4.1.2",
+        "eslint@8.43.0|chalk@4.1.2",
         "cross-spawn@7.0.3",
         "debug@4.3.4",
         "doctrine@3.0.0",
-        "eslint@8.42.0|escape-string-regexp@4.0.0",
-        "eslint@8.42.0|eslint-scope@7.2.0",
+        "eslint@8.43.0|escape-string-regexp@4.0.0",
+        "eslint@8.43.0|eslint-scope@7.2.0",
         "eslint-visitor-keys@3.4.1",
         "espree@9.5.2",
         "esquery@1.5.0",
@@ -33854,8 +33652,8 @@
         "fast-deep-equal@3.1.3",
         "file-entry-cache@6.0.1",
         "find-up@5.0.0",
-        "eslint@8.42.0|glob-parent@6.0.2",
-        "eslint@8.42.0|globals@13.20.0",
+        "eslint@8.43.0|glob-parent@6.0.2",
+        "eslint@8.43.0|globals@13.20.0",
         "graphemer@1.4.0",
         "ignore@5.2.4",
         "import-fresh@3.3.0",
@@ -33869,78 +33667,78 @@
         "minimatch@3.1.2",
         "natural-compare@1.4.0",
         "optionator@0.9.1",
-        "eslint@8.42.0|strip-ansi@6.0.1",
+        "eslint@8.43.0|strip-ansi@6.0.1",
         "strip-json-comments@3.1.1",
         "text-table@0.2.0"
       ]
     },
     {
-      "ref": "eslint@8.42.0|chalk@4.1.2",
+      "ref": "eslint@8.43.0|chalk@4.1.2",
       "dependsOn": [
-        "eslint@8.42.0|ansi-styles@4.3.0",
-        "eslint@8.42.0|supports-color@7.2.0"
+        "eslint@8.43.0|ansi-styles@4.3.0",
+        "eslint@8.43.0|supports-color@7.2.0"
       ]
     },
     {
-      "ref": "eslint@8.42.0|ansi-styles@4.3.0",
+      "ref": "eslint@8.43.0|ansi-styles@4.3.0",
       "dependsOn": [
-        "eslint@8.42.0|color-convert@2.0.1"
+        "eslint@8.43.0|color-convert@2.0.1"
       ]
     },
     {
-      "ref": "eslint@8.42.0|color-convert@2.0.1",
+      "ref": "eslint@8.43.0|color-convert@2.0.1",
       "dependsOn": [
-        "eslint@8.42.0|color-name@1.1.4"
+        "eslint@8.43.0|color-name@1.1.4"
       ]
     },
     {
-      "ref": "eslint@8.42.0|color-name@1.1.4"
+      "ref": "eslint@8.43.0|color-name@1.1.4"
     },
     {
-      "ref": "eslint@8.42.0|supports-color@7.2.0",
+      "ref": "eslint@8.43.0|supports-color@7.2.0",
       "dependsOn": [
-        "eslint@8.42.0|has-flag@4.0.0"
+        "eslint@8.43.0|has-flag@4.0.0"
       ]
     },
     {
-      "ref": "eslint@8.42.0|has-flag@4.0.0"
+      "ref": "eslint@8.43.0|has-flag@4.0.0"
     },
     {
-      "ref": "eslint@8.42.0|escape-string-regexp@4.0.0"
+      "ref": "eslint@8.43.0|escape-string-regexp@4.0.0"
     },
     {
-      "ref": "eslint@8.42.0|eslint-scope@7.2.0",
+      "ref": "eslint@8.43.0|eslint-scope@7.2.0",
       "dependsOn": [
         "esrecurse@4.3.0",
-        "eslint@8.42.0|estraverse@5.3.0"
+        "eslint@8.43.0|estraverse@5.3.0"
       ]
     },
     {
-      "ref": "eslint@8.42.0|estraverse@5.3.0"
+      "ref": "eslint@8.43.0|estraverse@5.3.0"
     },
     {
-      "ref": "eslint@8.42.0|glob-parent@6.0.2",
+      "ref": "eslint@8.43.0|glob-parent@6.0.2",
       "dependsOn": [
         "is-glob@4.0.3"
       ]
     },
     {
-      "ref": "eslint@8.42.0|globals@13.20.0",
+      "ref": "eslint@8.43.0|globals@13.20.0",
       "dependsOn": [
-        "eslint@8.42.0|type-fest@0.20.2"
+        "eslint@8.43.0|type-fest@0.20.2"
       ]
     },
     {
-      "ref": "eslint@8.42.0|type-fest@0.20.2"
+      "ref": "eslint@8.43.0|type-fest@0.20.2"
     },
     {
-      "ref": "eslint@8.42.0|strip-ansi@6.0.1",
+      "ref": "eslint@8.43.0|strip-ansi@6.0.1",
       "dependsOn": [
-        "eslint@8.42.0|ansi-regex@5.0.1"
+        "eslint@8.43.0|ansi-regex@5.0.1"
       ]
     },
     {
-      "ref": "eslint@8.42.0|ansi-regex@5.0.1"
+      "ref": "eslint@8.43.0|ansi-regex@5.0.1"
     },
     {
       "ref": "tsutils@3.21.0",
@@ -33956,7 +33754,7 @@
       "ref": "@eslint-community/eslint-utils@4.4.0",
       "dependsOn": [
         "eslint-visitor-keys@3.4.1",
-        "eslint@8.42.0"
+        "eslint@8.43.0"
       ]
     },
     {
@@ -34048,7 +33846,7 @@
       "ref": "@astrojs/compiler@1.5.1"
     },
     {
-      "ref": "@astrojs/internal-helpers@0.1.0"
+      "ref": "@astrojs/internal-helpers@0.1.1"
     },
     {
       "ref": "@astrojs/language-server@1.0.8",
@@ -34386,7 +34184,7 @@
       "ref": "@astrojs/markdown-remark@2.2.1",
       "dependsOn": [
         "@astrojs/prism@2.1.2",
-        "astro@2.6.4",
+        "astro@2.7.1",
         "@astrojs/markdown-remark@2.2.1|github-slugger@1.5.0",
         "import-meta-resolve@2.2.2",
         "rehype-raw@6.1.1",
@@ -35435,7 +35233,7 @@
       "ref": "@types/yargs-parser@21.0.0"
     },
     {
-      "ref": "acorn@8.8.2"
+      "ref": "acorn@8.9.0"
     },
     {
       "ref": "boxen@6.2.1",
@@ -35549,7 +35347,6 @@
       "dependsOn": [
         "anymatch@3.1.3",
         "braces@3.0.2",
-        "fsevents@2.3.2",
         "glob-parent@5.1.2",
         "is-binary-path@2.1.0",
         "is-glob@4.0.3",
@@ -35592,9 +35389,6 @@
       "ref": "is-number@7.0.0"
     },
     {
-      "ref": "fsevents@2.3.2"
-    },
-    {
       "ref": "glob-parent@5.1.2",
       "dependsOn": [
         "is-glob@4.0.3"
@@ -35633,11 +35427,11 @@
     {
       "ref": "esbuild@0.17.19",
       "dependsOn": [
-        "@esbuild/darwin-arm64@0.17.19"
+        "@esbuild/linux-x64@0.17.19"
       ]
     },
     {
-      "ref": "@esbuild/darwin-arm64@0.17.19"
+      "ref": "@esbuild/linux-x64@0.17.19"
     },
     {
       "ref": "estree-walker@3.0.0"
@@ -36039,9 +35833,6 @@
       "ref": "vscode-textmate@8.0.0"
     },
     {
-      "ref": "slash@4.0.0"
-    },
-    {
       "ref": "eastasianwidth@0.2.0"
     },
     {
@@ -36049,21 +35840,6 @@
     },
     {
       "ref": "ansi-regex@6.0.1"
-    },
-    {
-      "ref": "supports-esm@1.0.0",
-      "dependsOn": [
-        "has-package-exports@1.3.0"
-      ]
-    },
-    {
-      "ref": "has-package-exports@1.3.0",
-      "dependsOn": [
-        "@ljharb/has-package-exports-patterns@0.0.2"
-      ]
-    },
-    {
-      "ref": "@ljharb/has-package-exports-patterns@0.0.2"
     },
     {
       "ref": "tsconfig-resolver@3.0.1",
@@ -36110,10 +35886,7 @@
       ]
     },
     {
-      "ref": "rollup@3.25.1",
-      "dependsOn": [
-        "fsevents@2.3.2"
-      ]
+      "ref": "rollup@3.25.1"
     },
     {
       "ref": "vitefu@0.2.4",
@@ -36128,14 +35901,14 @@
       "ref": "zod@3.21.4"
     },
     {
-      "ref": "eslint-plugin-vue@9.14.1",
+      "ref": "eslint-plugin-vue@9.15.1",
       "dependsOn": [
         "@eslint-community/eslint-utils@4.4.0",
-        "eslint@8.42.0",
+        "eslint@8.43.0",
         "natural-compare@1.4.0",
         "nth-check@2.1.1",
         "postcss-selector-parser@6.0.13",
-        "semver@7.5.1",
+        "semver@7.5.3",
         "vue-eslint-parser@9.3.1",
         "xml-name-validator@4.0.0"
       ]
@@ -36168,11 +35941,11 @@
         "debug@4.3.4",
         "vue-eslint-parser@9.3.1|eslint-scope@7.2.0",
         "eslint-visitor-keys@3.4.1",
-        "eslint@8.42.0",
+        "eslint@8.43.0",
         "espree@9.5.2",
         "esquery@1.5.0",
         "lodash@4.17.21",
-        "semver@7.5.1"
+        "semver@7.5.3"
       ]
     },
     {
@@ -36189,7 +35962,7 @@
       "ref": "espree@9.5.2",
       "dependsOn": [
         "acorn-jsx@5.3.2",
-        "acorn@8.8.2",
+        "acorn@8.9.0",
         "eslint-visitor-keys@3.4.1"
       ]
     },
@@ -36248,7 +36021,7 @@
       "ref": "strip-json-comments@3.1.1"
     },
     {
-      "ref": "@eslint/js@8.42.0"
+      "ref": "@eslint/js@8.43.0"
     },
     {
       "ref": "@humanwhocodes/config-array@0.11.10",
@@ -36325,7 +36098,7 @@
     {
       "ref": "acorn-jsx@5.3.2",
       "dependsOn": [
-        "acorn@8.8.2"
+        "acorn@8.9.0"
       ]
     },
     {
@@ -36481,15 +36254,18 @@
       "ref": "text-table@0.2.0"
     },
     {
-      "ref": "vue-winbox@0.2.1",
+      "ref": "tuicss@2.1.1"
+    },
+    {
+      "ref": "vue-winbox@0.2.3",
       "dependsOn": [
-        "vue-winbox@0.2.1|nanoid@4.0.2",
+        "vue-winbox@0.2.3|nanoid@4.0.2",
         "vue@3.3.4",
         "winbox@0.2.6"
       ]
     },
     {
-      "ref": "vue-winbox@0.2.1|nanoid@4.0.2"
+      "ref": "vue-winbox@0.2.3|nanoid@4.0.2"
     },
     {
       "ref": "winbox@0.2.6"

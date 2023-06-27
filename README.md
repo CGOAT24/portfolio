@@ -30,15 +30,9 @@ Distributed under the GNU General Public License V3.0. See `LICENSE.txt` for mor
 
 ## Acknowledgments
 
-* [Icons](https://www.deviantart.com/marchmountain/art/Windows-XP-High-Resolution-Icon-Pack-916042853)
-* [vue-winbox](https://github.com/wobsoriano/vue-winbox)
-* [Windows XP theme](https://github.com/botoxparty/XP.css)
+* [TuiCss](https://github.com/vinibiavatti1/TuiCss)
 * [CycloneDX](https://cyclonedx.org/)
 
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Astro-url]: https://astro.build/
