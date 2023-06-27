@@ -5,7 +5,7 @@
 
 	document.addEventListener("keydown", (event) => {
 		if(event.key === "Enter" && loadingComplete) {
-			window.location.href = "/portfolio/Showcase";
+			window.location.href = "/portfolio/showcase";
 		}
 	});
 

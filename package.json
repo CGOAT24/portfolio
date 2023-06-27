@@ -12,13 +12,14 @@
     "analyze": "cyclonedx-npm --output-format JSON --output-file sbom.json"
   },
   "dependencies": {
-    "@astrojs/vue": "^2.2.1",
-    "astro": "^2.7.0",
+    "@astrojs/vue": "^1.0.2",
+    "astro": "^2.7.1",
     "tuicss": "^2.1.1",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2"
   },
   "devDependencies": {
-    "@cyclonedx/cyclonedx-npm": "^1.12.1",
+    "@cyclonedx/cyclonedx-npm": "^1.10.0",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "eslint": "^8.43.0",
