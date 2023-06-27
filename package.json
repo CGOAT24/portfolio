@@ -15,8 +15,7 @@
     "@astrojs/vue": "^1.0.2",
     "astro": "^2.7.1",
     "tuicss": "^2.1.1",
-    "vue": "^3.3.4",
-    "vue-i18n": "^9.2.2"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@cyclonedx/cyclonedx-npm": "^1.10.0",
