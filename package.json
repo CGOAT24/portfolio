@@ -18,7 +18,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@cyclonedx/cyclonedx-npm": "^1.10.0",
+    "@cyclonedx/cyclonedx-npm": "^1.12.1",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.0",
     "eslint": "^8.44.0",
