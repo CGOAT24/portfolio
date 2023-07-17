@@ -21,7 +21,7 @@
     "@cyclonedx/cyclonedx-npm": "^1.13.0",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.61.0",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "@semantic-release/github": "^9.0.3",
     "eslint-plugin-vue": "^9.15.1"
   },
