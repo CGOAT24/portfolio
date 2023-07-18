@@ -6,18 +6,26 @@
     This is my portfolio used to showcase the different projects I've worked on.
   </p>
 </div>
-### Built With
+
+## Built With
+
 * [![Vue][Vue.js]][Vue-url]
 * [![Astro][Astro.build]][Astro-url]
 * [![Typescript][Typescript-badge]][Typescript-url]
 <br><br>
 For more details, refer to the `sbom.json` file.
+
 ## License
+
 Distributed under the GNU General Public License V3.0. See `LICENSE.txt` for more information.
+
 ## Contact
+
 * [![Email][Email-badge]][Email-link]
 * [![Discord][Discord-badge]][Discord-link]
+
 ## Acknowledgments
+
 * [TuiCss](https://github.com/vinibiavatti1/TuiCss)
 * [CycloneDX](https://cyclonedx.org/)
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
