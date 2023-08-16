@@ -9,10 +9,10 @@
 
 ## Built With
 
-* [![Vue][Vue.js]][Vue-url]
-* [![Astro][Astro.build]][Astro-url]
-* [![Typescript][Typescript-badge]][Typescript-url]
-<br><br>
+* Vuejs
+* Astro
+* Typescript
+
 For more details, refer to the `sbom.json` file.
 
 ## License
@@ -21,21 +21,10 @@ Distributed under the GNU General Public License V3.0. See `LICENSE.txt` for mor
 
 ## Contact
 
-* [![Email][Email-badge]][Email-link]
-* [![Discord][Discord-badge]][Discord-link]
+* [Email](chadgauthier@duck.com)
+* [Discord](https://discordapp.com/users/155003628426362882)
 
 ## Acknowledgments
 
 * [TuiCss](https://github.com/vinibiavatti1/TuiCss)
 * [CycloneDX](https://cyclonedx.org/)
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Astro-url]: https://astro.build/
-[Astro.build]: https://img.shields.io/badge/Astro-000000?style=for-the-badge&logo=astro&logoColor=%23FFF&color=%23FF5D01
-[Typescript-url]: https://www.typescriptlang.org/
-[Typescript-badge]: https://img.shields.io/badge/Typescript-000000?style=for-the-badge&logo=typescript&logoColor=%23FFF&color=%233178C6
-[Email-badge]: https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=%23FFF&color=%23EA4335
-
-[Email-link]: chadgauthier@duck.com
-[Discord-badge]: https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=%23FFF&color=%235865F2
-[Discord-link]: https://discordapp.com/users/155003628426362882
