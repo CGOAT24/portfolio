@@ -14,7 +14,7 @@
   "dependencies": {
     "@astrojs/vue": "^2.2.1",
     "astro": "^2.10.14",
-    "tuicss": "^2.1.1",
+    "tuicss": "^2.1.2",
     "vue": "^3.3.4"
   },
   "devDependencies": {
