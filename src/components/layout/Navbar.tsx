@@ -1,3 +1,5 @@
+const base: string = import.meta.env.BASE_URL;
+
 export default function Navbar() {
 	return <div className="navbar bg-base-100 shadow-sm">
 		<div className="navbar-start">
@@ -11,28 +13,22 @@ export default function Navbar() {
 				<ul
 					tabIndex={0}
 					className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-					<li><a>Work Experience</a></li>
-					<li>
-						<a>Parent</a>
-						<ul className="p-2">
-							<li><a>Submenu 1</a></li>
-							<li><a>Submenu 2</a></li>
-						</ul>
-					</li>
-					<li><a>Item 3</a></li>
+					<li><a href={`${base}/experiences`}>Experiences</a></li>
+					<li><a href={`${base}/education`}>Education</a></li>
+					<li><a href={`${base}/skills`}>Skills</a></li>
 				</ul>
 			</div>
-			<a className="btn btn-ghost text-xl" href="/">Chad Gauthier</a>
+			<a className="btn btn-ghost text-xl" href={base}>Chad Gauthier</a>
 		</div>
 		<div className="navbar-center hidden lg:flex">
 			<ul className="menu menu-horizontal px-1">
-				<li><a href="/experiences">Experiences</a></li>
-				<li><a href="/education">Education</a></li>
-				<li><a href="/skills">Skills</a></li>
+				<li><a href={`${base}/experiences`}>Experiences</a></li>
+				<li><a href={`${base}/education`}>Education</a></li>
+				<li><a href={`${base}/skills`}>Skills</a></li>
 			</ul>
 		</div>
 		<div className="navbar-end">
-			<a className="btn" href="/contact">Contact</a>
+			<a className="btn" href={`${base}/contact`}>Contact</a>
 		</div>
 	</div>;
 }
