@@ -1,0 +1,28 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Skill from "../components/Skill";
+
+const langs: string[] = ["Typescript", "Javascript", "C#", "Rust", "Go", "Python", "Java", "PHP", "Kotlin", "C/C++"];
+const libs: string[] = ["Svelte", "Sveltekit", "Vue.js", "Nuxt", "React", "Astro", "Tailwind", ".NET Core", "EF Core",
+	"Laravel", "Hono", "Express.js", "Prisma", "Flutter", "Tauri"];
+const databases: string[] = ["PostgreSQL", "MySQL", "MongoDb", "SQL Server"];
+const tools: string[] = ["Git", "Github", "Gitlab", "Azure DevOps", "Kubernetes", "Docker"];
+---
+<Layout>
+    <div class="divider divider-start">Programming languages</div>
+    <div class="flex flex-wrap justify-stretch w-full h-full">
+		{langs.map(lang => <Skill name={lang} />)}
+    </div>
+    <div class="divider divider-start">Libraries/Frameworks</div>
+    <div class="flex flex-wrap justify-stretch w-full h-full">
+	  {libs.map(lib => <Skill name={lib} />)}
+    </div>
+  <div class="divider divider-start">Databases</div>
+  <div class="flex flex-wrap justify-stretch w-full h-full">
+	  {databases.map(db => <Skill name={db} />)}
+  </div>
+  <div class="divider divider-start">Tools</div>
+  <div class="flex flex-wrap justify-stretch w-full h-full">
+	  {tools.map(tool => <Skill name={tool} />)}
+  </div>
+</Layout>

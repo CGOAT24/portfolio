@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Timeline from "../components/timeline/Timeline";
+
+const work = [
+	{
+		date: "May to august 2024",
+		title: "Programmer-analyst intern",
+		location: "Nmédia"
+	},
+	{
+		date: "September to december 2023",
+		title: "Tool programmer intern",
+		location: "Ubisoft Québec"
+	},
+	{
+		date: "April to september 2023",
+		title: "Contractual work",
+		location: "Casa Das Tias"
+	},
+	{
+		date: "January to april 2023",
+		title: "Programmer-analyst intern",
+		location: "Sherweb"
+	},
+	{
+		date: "March - september 2022",
+		title: "Programmer-analyst",
+		location: "Groupe Shift"
+	}
+];
+---
+<Layout>
+	<Timeline elements={work}/>
+</Layout>
