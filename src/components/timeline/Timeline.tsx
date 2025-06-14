@@ -10,6 +10,7 @@ export default function Timeline({elements}: {elements: Array<any>}) {
 					location={elem.location}
 					first={i === 0}
 					last={i === elements.length - 1}
+					key={i}
 				/>
 			)
 		)}

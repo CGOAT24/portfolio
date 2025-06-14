@@ -1,8 +1,76 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Welcome from "../components/Welcome"
+import Timeline from "../components/timeline/Timeline";
+import Skill from "../components/Skill";
+
+const education = [
+	{
+		date: "2022-2025",
+		title: "Bachelor’s degree in computer science",
+		location: "Université de Sherbrooke"
+	},
+	{
+		date: "2019-2022",
+		title: "Technical diploma in computer science",
+		location: "Cégep de Trois-Rivières"
+	}
+];
+
+const work = [
+	{
+		date: "May to august 2024",
+		title: "Programmer-analyst intern",
+		location: "Nmédia"
+	},
+	{
+		date: "September to december 2023",
+		title: "Tool programmer intern",
+		location: "Ubisoft Québec"
+	},
+	{
+		date: "January to april 2023",
+		title: "Programmer-analyst intern",
+		location: "Sherweb"
+	},
+	{
+		date: "March - september 2022",
+		title: "Programmer-analyst",
+		location: "Groupe Shift"
+	}
+];
+
+const langs: string[] = ["Typescript", "Javascript", "C#", "Rust", "Go", "Python", "Java", "PHP", "Kotlin", "C/C++"];
+const libs: string[] = ["Svelte", "Sveltekit", "Vue.js", "Nuxt", "React", "Astro", "Tailwind", ".NET Core", "EF Core",
+	"Laravel", "Hono", "Express.js", "Prisma", "Flutter", "Tauri"];
+const databases: string[] = ["PostgreSQL", "MySQL", "MongoDb", "SQL Server"];
+const tools: string[] = ["Git", "Github", "Gitlab", "Azure DevOps", "Kubernetes", "Docker"];
 ---
 
 <Layout>
-	<Welcome />
+  <a href="https://github.com/CGOAT24/cv/releases/download/latest/Chad_Gauthier_cv_en.pdf" target="_blank">
+    <button class="sticky left-5 top-5 btn btn-lg btn-active">Download resume</button>
+  </a>
+  <Welcome />
+  <div class="divider divider-start font-bold text-2xl">Education</div>
+  <Timeline elements={education}/>
+  <div class="divider divider-start font-bold text-2xl">Experiences</div>
+  <Timeline elements={work}/>
+  <div class="divider divider-start font-bold text-2xl">Skills</div>
+  Programming languages
+  <div class="flex flex-wrap justify-stretch w-full h-full">
+	{langs.map(lang => <Skill name={lang} />)}
+  </div>
+  Libraries/Frameworks
+  <div class="flex flex-wrap justify-stretch w-full h-full">
+	{libs.map(lib => <Skill name={lib} />)}
+  </div>
+  Databases
+  <div class="flex flex-wrap justify-stretch w-full h-full">
+	{databases.map(db => <Skill name={db} />)}
+  </div>
+  Tools
+  <div class="flex flex-wrap justify-stretch w-full h-full">
+	{tools.map(tool => <Skill name={tool} />)}
+  </div>
 </Layout>
